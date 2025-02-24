@@ -1,7 +1,7 @@
 # 🖥️ Environment Setup Guide
 
 Welcome! This guide will help you set up your computing environment for working
-in the lab. Most of our machines run a version of Linux called Ubuntu, and we use Python with `pyenv` for
+in the lab. Most of our machines run a version of Linux called [Ubuntu](https://ubuntu.com/), and we use Python with [`pyenv`](https://github.com/pyenv/pyenv) for
 managing versions and virtual environments.
 
 ## Getting Started with the Linux Terminal
@@ -23,7 +23,7 @@ Most software can be installed using `apt`. For example:
 
 ```sh
 sudo apt update && sudo apt upgrade -y  # Update package lists
-sudo apt install git python3 python3-venv -y  # Install essential tools
+sudo apt install git python3 python3-venv -y  # Install some essential tools
 ```
 
 To remove software:
@@ -32,7 +32,7 @@ To remove software:
 sudo apt remove <package-name>
 ```
 You might want to install your code editor of choice (e.g., nvim, emacs,
-visual studio code, pycharm, etc.). In many cases, it might be already
+Visual Studio Code, PyCharm, etc.). In many cases, it might be already
 installed.
 
 ## Using Python with `pyenv`
@@ -72,7 +72,9 @@ pyenv versions
 ```
 
 ## Virtual Environments: Why and How to Use Them
-Virtual environments isolate dependencies for different projects, preventing conflicts. It's like a sandbox for your code.
+Virtual environments isolate dependencies for different projects, preventing
+conflicts. It's like a sandbox for your code and makes it easier to manage
+dependencies, thus improving reproducibility.
 
 ### Creating a Virtual Environment
 
@@ -101,6 +103,6 @@ This method allows you to use the same virtual environment across multiple proje
 ## Next Steps
 Congratulations! Now that you have a **comfy** computing environment is set up, check out:
 
-- [General Workflow Guide](/path/to/workflow-guide)
-- [Structuring a Data Analysis Project](/path/to/project-structure)
+- [General Workflow Guide](0_workflow_and_help.md)
+- [Structuring a Data Analysis Project](3_data_analysis_project.md)
 

@@ -1,7 +1,5 @@
 # Writing a Good Python Script: A Primer
 
-German version: [README_de.md](README_de.md)
-
 This primer will guide you through best practices to write effective and clean
 Python scripts. Whether you're working on a data processing pipeline, a machine
 learning model, or a simple utility script, following these guidelines will
@@ -20,7 +18,9 @@ the code.
 
 ## 2. Start with a Short Explanation (Docstring)
 
-At the beginning of your script, include a docstring that briefly explains what the script does. This helps users quickly grasp the script's functionality.
+At the beginning of your script, include a docstring that briefly explains what
+the script does. This helps users quickly grasp the script's functionality, if
+the name is not already clear enough.
 
 ```python
 """
@@ -31,13 +31,16 @@ and saves the processed data to a new file.
 
 ## 3. Import All Required Packages at the Beginning
 
-List all your imports at the top of the script. This makes dependencies clear and simplifies maintenance.
+List all your imports at the top of the script. This makes dependencies clear
+and simplifies maintenance.
 
 ```python
 import sys                # Packages that are provided by Python
 from pathlib import Path
+
 import numpy as np        # Packages that are downloaded, specified in the requierements.txt
 import pandas as pd
+
 import my_module          # Modules that are written by yourself
 ```
 
@@ -300,4 +303,6 @@ others who may work with your code in the future. The effort you put into
 writing clean and effective scripts will pay off in the long run.
 
 Happy coding!
+
+You might want to consider continuing with reading our guide to [structuring your dataset](4_data.md). 
 

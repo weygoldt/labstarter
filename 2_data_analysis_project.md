@@ -161,6 +161,10 @@ is no good reason to not use it!
 - **Meaningful Messages**: Use descriptive commit messages for better understanding.
 - **Use `.gitignore`**: Exclude files and directories that shouldn't be tracked (e.g., large data files, virtual environments).
 
+If you (and maybe other new students) have never heard of, or used Git before,
+and you prefer a formal introduction, approach your supervisor, or your peers
+to arrange a workshop to get you started with Git.
+
 ---
 
 ## Best Practices for Data Analysis Projects
@@ -174,7 +178,7 @@ is no good reason to not use it!
 
    - Maintain a clear and informative `README.md`.
    - Use docstrings and comments in your code.
-   - Keep a changelog for significant updates.
+   - Keep a changelog for significant updates. This is useful but also very rewarding, as it gives you a sense for what you accomplished!
 
 3. **Write Modular Code**
 
@@ -184,7 +188,7 @@ is no good reason to not use it!
 4. **Follow Coding Standards**
 
    - Adhere to PEP 8 guidelines for Python code.
-   - Use linters like `flake8` or formatters like `black` or `ruff` to maintain code quality.
+   - Use linters like `flake8` or formatters like `black` or `ruff` to maintain code quality. These can be used as terminal commands or intergrated into your code editor to automatically format your code using best practices.
 
 5. **Automate Data Processing**
 
@@ -193,7 +197,7 @@ is no good reason to not use it!
 
 6. **Test Your Code**
 
-   - Implement unit tests using frameworks like `unittest` or `pytest`.
+   - If you write a python package, write unit tests using frameworks like `unittest` or `pytest`.
    - Keep tests in the `tests/` directory.
 
 7. **Handle Data Carefully**
@@ -207,7 +211,7 @@ is no good reason to not use it!
 9. **Backup Regularly**
 
    - Push changes to a remote repository frequently.
-   - Consider additional backups for critical data.
+   - Create additional backups for critical data! Approach your supervisor if you need storage space or help backing things up.
 
 10. **Collaborate Effectively**
 
@@ -235,3 +239,5 @@ using version control, and following best practices, you set a strong
 foundation for your work and collaboration with others.
 
 Happy coding!
+
+You might consider continuing with our guide [writing nice code](3_code.md).

@@ -1,7 +1,5 @@
 # Structuring the `/data` Directory
 
-German version: [README_de.md](README_de.md)
-
 ```
 project-name/
 ├── data/
@@ -23,7 +21,7 @@ further analyze:
 
 - **`intermediate/`**:
   - Place derived data here. This additional layer might not be useful for some projects.
-  - For example, intermediate data could be position tracks of animals if your raw data are videos or spectrograms if your raw data are audio files.
+  - For example, intermediate data could be position tracks of animals if your raw data are videos, or spectrograms if your raw data are audio files.
 
 So you now analyzed the extracted data and want to create summary figures.
 Because you don't want to run your analysis each time you try to plot a figure,
@@ -35,7 +33,9 @@ directory.
   - Place cleaned or transformed data here.
   - Generate these files using scripts.
   - Document processing steps if necessary.
-  - This is usually the final version of data that is directly used for plotting
+  - This is usually the final version of data that is directly used for plotting.
+  - If you plan to publish your work, this is also the data usually pubished with your manuscript and your code.
+
 
 If your analysis contains any model training, we usually store the trained
 model weights, checkpoints, and outputs in the `models/` directory.
@@ -44,3 +44,7 @@ model weights, checkpoints, and outputs in the `models/` directory.
   - Save model weights, checkpoints, and outputs.
   - Organize by experiment or model version if needed.
   - Include metadata about training parameters or results.
+
+Now you have a good directory structure for your data analysis project.
+Looking into our guide on [remote computing](5_remote_computing.md) is a good
+place to continue learning.

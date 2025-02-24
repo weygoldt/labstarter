@@ -32,7 +32,7 @@ For a more flexible and automated workflow, consider using **[Zotero](https://ww
 - Exporting references to `.bib` format for LaTeX.
 - Syncing your library across devices.
 
-Some people in the lab (ask **Patrick** or **Alex**) use Zotero and can help
+Some people in the lab (ask **Jona, Alex or Patrick**) use Zotero and can help
 you set it up. Zotero can also keep your `.bib` file automatically updated when
 you add new references.
 

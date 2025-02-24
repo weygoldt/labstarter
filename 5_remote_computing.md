@@ -14,6 +14,9 @@ ask anybody in the lab. To connect to a remote machine, use:
 ssh efish@remote-host.am28.uni-tuebingen.de
 ```
 
+You are now in a terminal session on this machine and can do anything you
+can also do on your local machine!
+
 All computers have a host name. Usually, a sticker on the front of the machine
 contains the host name. For example, if the machine is called `torpedo`:
 
@@ -93,14 +96,11 @@ For frequent use, consider writing a small script to automate syncing and runnin
 
 ## 📝 Efficient Remote Workflows with Terminal Tools
 ### Using Neovim for Remote Editing
-If you want to avoid syncing files manually, consider using `neovim`, which allows remote editing over SSH:
-
-```sh
-nvim scp://efish@remote-host//path/to/file.py
-```
-
-For further help, **Patrick and Alex** in the lab can assist with Neovim setup.
-This code editor has a steep learning curve, but it is extremely powerful.
+If you want to avoid syncing files manually, consider a terminal-based code
+editor like `neovim`, which allows to edit code on the remote host in your
+`ssh` session. For further help, **Patrick and Alex** in the lab can assist
+with Neovim setup. This code editor has a steep learning curve, but it is
+extremely powerful.
 
 ### Running Persistent Sessions with Tmux
 If you connect to a remote host via ssh, start a script, and disconnect before
@@ -136,3 +136,6 @@ This is useful when running long experiments or scripts remotely.
 | Mount remote directories    | `sshfs` |
 | Edit files remotely         | `Neovim`, `VS Code SSH` |
 | Run persistent processes    | `tmux` |
+
+Now that we got you setup with remote computing, you might check out our short
+guide to [writing and literature research](6_literature.md).

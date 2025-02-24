@@ -1,7 +1,7 @@
 # 🤖 Using AI for Research: Best Practices & Pitfalls
 
-AI can be a powerful tool in research, but it’s easy to misuse. In our lab, we
-primarily use AI for **writing code** and **assisting with manuscripts**. This
+AI can be a powerful tool in research, but it’s very easy to misuse. In our
+lab, we primarily use AI for assistance with **code** and **manuscripts**. This
 guide outlines the right way to use AI while ensuring you remain in control of
 your work.
 
@@ -11,17 +11,21 @@ your work.
 ### ✅ **When to Use AI for Coding**
 - If you have a **radical new idea** and want to quickly prototype a concept without much initial investment, AI can help generate a **starting point**.
 - If you're **stuck on a problem**, AI can provide **alternative approaches** that you might not have considered.
-- AI-generated code should be used as **inspiration, not a final solution**.
+- AI-generated code should be used as **inspiration, never as a final solution**.
 
 ### ❌ **What to Avoid**
-- **Never rely on AI to write your code for you.** It often produces code that appears correct but contains subtle errors.
+- **Never rely on AI to write your code for you.** It often produces code that appears correct but contains **subtle errors**.
 - **Always review the AI-generated code** before running it. Read every line to ensure you understand what it does.
 - **Use interactive debugging tools** (`IPython.embed()` or print statements) whenever AI-generated code introduces something unfamiliar.
-- **AI should assist your learning, not replace it.** If you blindly trust AI, you won’t develop real programming skills.
+- **AI should assist your learning, not replace it.** If you blindly trust AI, you will never develop real programming skills.
 
 ### 🚀 **Using GitHub Copilot**
-GitHub Copilot works directly in your editor and makes **auto-suggestions** while you type. It can significantly speed up coding, especially for repetitive tasks like creating figures or structuring code. However:
+GitHub Copilot works directly in your editor and makes **auto-suggestions**
+while you type. It can significantly speed up coding, especially for repetitive
+tasks like creating figures or structuring code. However:
+
 - If you notice you’re relying too much on auto-completers, try **disabling them for a few days**. This self-check helps you assess your actual coding ability and prevents over-reliance.
+- If you find that you are unable to write anything without AI, stick with regular old google search for a few weeks. You will quickly see the difference.
 
 ---
 ## 📄 AI for Writing Manuscripts
@@ -41,6 +45,6 @@ GitHub Copilot works directly in your editor and makes **auto-suggestions** whil
 
 AI can be a great tool for quickly getting an overview of new topics like **deep learning, statistics, or signal processing**. However:
 - If you **never go beyond asking AI**, your knowledge will remain shallow.
-- A good approach is to **balance** AI assistance with reading books, implementing algorithms yourself, and then using AI when you have **specific questions** that books or primary sources couldn’t answer.
+- A good approach is to **balance** AI assistance with reading books, implementing algorithms yourself, and then using AI like a tutor when you have **specific questions** that books or primary sources couldn’t answer.
 
 By using AI wisely, you can enhance your research workflow while still developing essential skills in coding and writing. 🚀
