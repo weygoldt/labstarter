@@ -45,7 +45,7 @@ If you still can’t solve the issue after trying the steps above, don’t hesit
 ## Respecting Everyone’s Time
 We love discussing ideas and helping each other, but constant interruptions can break focus. To keep the lab running smoothly:
 
-- Try to batch non-urgent questions and discuss them at a good time. Your supervisor is always happy to spend some focus time with you.
+- Try to batch non-urgent questions and discuss them at a good time. This is usually more effective than interrupting someone for just a few minutes.
 - If someone looks deeply focused, consider sending a message instead of interrupting.
 - If you notice you’re often asking about the same thing, it might be worth learning that topic in more depth.
 
