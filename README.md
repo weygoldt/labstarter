@@ -76,3 +76,10 @@ We encourage asking questions and learning together. But before asking, try thes
 3. **Ask in the lab** – if you're stuck, don’t hesitate to ask for help!
 
 We hope this guide makes your start smooth and enjoyable. Welcome aboard! 🎉
+
+
+---
+
+This guide is intended to kickstart your work. If you have **any** questions
+or suggestions to make it better, **please let us know**! You can also
+report any issue in the Issues-tab here on GitHub.
