@@ -38,9 +38,10 @@ practices, check out our guide.
 
 ➡ [Guide to writing nice code](3_code.md)
 
-### 📝 Recording Data If you're collecting your own data, it's crucial to
-structure it properly and keep detailed metadata. Doing it right from the
-beginning prevents manual work later.
+### 📝 Recording Data
+If you're collecting your own data, it's crucial to structure it properly and
+keep detailed metadata. Doing it right from the beginning prevents manual work
+later.
 
 ➡ [Guide to structuring datasets](4_data.md)
 
