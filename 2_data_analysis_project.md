@@ -160,6 +160,7 @@ is no good reason to not use it!
 - **Commit Often**: Regular commits make it easier to track changes.
 - **Meaningful Messages**: Use descriptive commit messages for better understanding.
 - **Use `.gitignore`**: Exclude files and directories that shouldn't be tracked (e.g., large data files, virtual environments).
+  This is important as git repositories that store large binary data can quickly blow up in size and become impossible to push or pull. A template for such a `.gitignore` file can be found [here](.gitignore).
 
 If you (and maybe other new students) have never heard of, or used Git before,
 and you prefer a formal introduction, approach your supervisor, or your peers
