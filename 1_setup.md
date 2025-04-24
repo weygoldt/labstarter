@@ -1,7 +1,7 @@
 # 🖥️ Environment Setup Guide
 
 Welcome! This guide will help you set up your computing environment for working
-in the lab. Most of our machines run a version of Linux called [Ubuntu](https://ubuntu.com/), and we use Python with [`pyenv`](https://github.com/pyenv/pyenv) for
+in the lab. Most of our machines run a version of Linux called [Ubuntu](https://ubuntu.com/), and we use Python with [`pyenv`](https://github.com/pyenv/pyenv) or [`uv`](https://docs.astral.sh/uv/) for
 managing versions and virtual environments.
 
 ## Getting Started with the Linux Terminal
@@ -70,6 +70,9 @@ To check the installed versions:
 ```sh
 pyenv versions
 ```
+
+> NOTE: Most machines in our lab currently use `pyenv`, but some people are gradually moving to `uv`, as it is faster. If you want to use `uv` instead, follow the instructions
+> [here](https://docs.astral.sh/uv/installation.html). You can use `uv` and `pyenv` together, but it is not recommended. If you want to use `uv`, you should remove `pyenv` first.
 
 ## Virtual Environments: Why and How to Use Them
 Virtual environments isolate dependencies for different projects, preventing
